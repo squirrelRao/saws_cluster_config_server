@@ -7,7 +7,7 @@ spring:
           git:
             uri: https://github.com/squirrelRao/saws_cluster_config_server
             username: hqraop@163.com
-            password: raoping620
+            password: Raoping620.
             default-label: master
             search-paths: config
 
