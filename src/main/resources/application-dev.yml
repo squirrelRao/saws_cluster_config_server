@@ -1,3 +1,5 @@
+#visit url: http://localhost:6900/saws-server-config-dev.yaml
+
 spring:
   application:
     name: saws-server-config
@@ -5,11 +7,15 @@ spring:
       config:
         server:
           git:
-            uri: https://github.com/squirrelRao/saws_cluster_config_server
-            username: hqraop@163.com
-            password: Raoping620.
-            default-label: master
+            uri: https://github.com/squirrelRao/saws_cluster_config_server.git
             search-paths: config
+            default-label: master
+            username: hqraop@163.com
+            password: raoping620
+
 
 server:
   port: 6900
+
+
+
