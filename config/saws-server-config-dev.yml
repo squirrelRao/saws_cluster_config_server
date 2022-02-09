@@ -1,5 +1,2 @@
-enviroment:
-  name:
-    saws
-  domain:
-    lakewater.cn
+name: saws
+domain: lakewater.cn
