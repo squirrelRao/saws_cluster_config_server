@@ -12,8 +12,13 @@ spring:
             default-label: master
             username: hqraop@163.com
             password: raoping620
-
-
+  rabbit:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    publisher-confirm: true
+    publisher-returns: true
 server:
   port: 6900
 
